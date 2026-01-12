@@ -1,8 +1,15 @@
 import "@/styles/globals.scss";
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Frontend Engineer Portfolio",
+  title: {
+    default: 'フロントエンドエンジニア ポートフォリオ',
+    template: '%s | フロントエンドエンジニア ポートフォリオ'
+  },
+  description: "制作会社を中心にWeb制作・フロントエンド開発に携わるフロントエンドエンジニアのポートフォリオ。HTML / CSS（SCSS）を用いたマークアップから、React / Next.js による実装まで対応。",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
