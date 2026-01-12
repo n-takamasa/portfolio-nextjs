@@ -1,0 +1,17 @@
+@use '../foundation/variables' as *;
+
+/* ==================================================
+  Utility
+================================================== */
+
+.u-mt-xs { margin-top: $space-xs; }
+.u-mt-sm { margin-top: $space-sm; }
+.u-mt-md { margin-top: $space-md; }
+.u-mt-lg { margin-top: $space-lg; }
+.u-mt-xl { margin-top: $space-xl; }
+
+.u-mb-xs { margin-bottom: $space-xs; }
+.u-mb-sm { margin-bottom: $space-sm; }
+.u-mb-md { margin-bottom: $space-md; }
+.u-mb-lg { margin-bottom: $space-lg; }
+.u-mb-xl { margin-bottom: $space-xl; }

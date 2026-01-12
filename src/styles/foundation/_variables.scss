@@ -2,9 +2,59 @@
   Variables
 ================================================== */
 
-:root {
-  --color-text: #111111;
-  --color-accent: #05f;
-  --color-bg: #fff;
-  --font-base: var(--font-inter), sans-serif;
-}
+// Color --------------------------------------------
+$color-text-primary: #1a1a1a;
+$color-text-secondary: #555;
+$color-text-muted: #888;
+
+$color-bg-base: #fff;
+$color-bg-sub: #f7f7f7;
+
+$color-border: #e5e5e5;
+
+$color-primary: #2563eb;
+$color-primary-hover: #1d4ed8;
+
+// Typography ---------------------------------------
+$font-family-base: 'Noto Sans JP', sans-serif;
+
+// Base ---------------------------------------------
+$font-size-root: 16px;
+$font-size-base: 1rem;  // 16px
+
+$line-height-base: 1.7;
+$line-height-heading: 1.3;
+
+// Heading ------------------------------------------
+$font-size-h1: 2.5rem;    // 40px
+$font-size-h2: 2rem;      // 32px
+$font-size-h3: 1.5rem;    // 24px
+$font-size-h4: 1.25rem;   // 20px
+
+// Spacing ------------------------------------------
+$space-xxs: 0.25rem;    // 4px
+$space-xs: 0.5rem;      // 8px
+$space-sm: 1rem;        // 16px
+$space-md: 1.5rem;      // 24px
+$space-lg: 2.5rem;      // 40px
+$space-xl: 4rem;        // 64px
+$space-xxl: 6rem;       // 96px
+
+// Layout ------------------------------------------
+$container-max-width: 1200px;
+
+$container-padding-sp: 1rem;    // 16px
+$container-padding-pc: 1.5rem;  // 24px
+
+// Breakpoints -------------------------------------
+$bp-sp: 768px;
+$bp-pc: 1024px;
+$bp-wide: 1280px;
+
+// Radius ------------------------------------------
+$radius-sm: 0.25rem;    // 4px
+$radius-md: 0.5rem;     // 8px
+
+// Shadow ------------------------------------------
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);

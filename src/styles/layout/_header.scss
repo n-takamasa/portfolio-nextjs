@@ -1,0 +1,10 @@
+@use '../foundation' as *;
+
+/* ==================================================
+  Header
+================================================== */
+.l-header {
+  width: 100%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+}

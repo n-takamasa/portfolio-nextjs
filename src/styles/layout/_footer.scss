@@ -1,0 +1,12 @@
+@use '../foundation' as *;
+
+/* ==================================================
+  Footer
+================================================== */
+.l-footer {
+  text-align: center;
+  width: 100%;
+  max-width: $container-max-width;
+  padding: 16px 0;
+  margin: 0 auto;
+}

@@ -1,19 +1,41 @@
+@use './variables' as *;
+
 /* ==================================================
   Base
 ================================================== */
 
+html {
+  font-size: $font-size-root;
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: var(--font-base);
-  color: var(--color-text);
-  background-color: var(--color-bg);
-  line-height: 1.7;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $color-text-primary;
+  background-color: $color-bg-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscalse;
+}
+
+p {
+  margin: 0;
+}
+
+strong {
+  font-weight: 600;
 }
 
 a {
-  color: var(--color-accent);
+  color: inherit;
   text-decoration: none;
 
   &:hover {
     text-decoration: underline;
   }
+}
+
+::selection {
+  background-color: rgba($color-primary, 0.15);
 }

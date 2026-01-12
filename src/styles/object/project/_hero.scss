@@ -1,11 +1,13 @@
-/* ---------- Hero ---------- */
+@use '../../foundation' as *;
+/* ==================================================
+  Hero
+================================================== */
 .p-hero {
-  padding: 120px 0;
+  padding: $space-xxl 0;
 
   &__lead {
     font-size: 14px;
     letter-spacing: 0.05em;
-    margin-bottom: 16px;
     color: var(--color-text-sub);
   }
 
@@ -13,7 +15,6 @@
     font-size: 40px;
     font-weight: 600;
     line-height: 1.4;
-    margin-bottom: 24px;
   }
 
   &__text {

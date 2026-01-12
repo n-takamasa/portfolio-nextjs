@@ -1,19 +1,4 @@
-@use 'foundation/reset';
-@use 'foundation/variables';
-@use 'foundation/base';
-
-@use 'layout/header';
-@use 'layout/main';
-@use 'layout/footer';
-
-@use 'object/component/skillCategory';
-@use 'object/component/workItem';
-
-@use 'object/project/hero';
-@use 'object/project/about';
-@use 'object/project/skills';
-@use 'object/project/works';
-@use 'object/project/experience';
-@use 'object/project/contact';
-
-@use 'utility/utility';
+@use './foundation' as *;
+@use './layout';
+@use './object';
+@use './utility';
